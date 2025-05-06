@@ -24,25 +24,16 @@ Retrieval-Augmented Generation (RAG) enhances the response quality of language m
 
 ```bash
 pip install langchain faiss-cpu openai tiktoken python-dotenv
-
-
 OPENAI_API_KEY=your-api-key
 jupyter notebook rag_using_langchain.ipynb
-User Query: What is the purpose of using a retriever in a RAG pipeline?
 
-→ [LLM-generated answer using retrieved document chunks]
 
 
 📚 References
 LangChain Documentation
-
 FAISS GitHub
-
 OpenAI API
-
 Together API
 
 
----
 
-Let me know if you'd like a version with badges, sample outputs, or deployment instructions.
